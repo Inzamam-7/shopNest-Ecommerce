@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.featured-swiper .swiper-button-next,
+.featured-swiper .swiper-button-prev {
+    @apply bg-gray-400 rounded-full w-10 h-10 p-2 text-white  transition-opacity ease-in-out duration-1000
+}
+
+.featured-swiper .swiper-button-next{
+    @apply -translate-x-4
+}
+
+.featured-swiper .swiper-button-prev{
+    @apply translate-x-4;
+}
